@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Harshavardhan Raja – Resume</title>
+<style>
+  :root { --navy:#003366; --text:#111; --muted:#888; --rule:#d0d0d0; }
+  @page { margin: 1.1in 0.8in; }
+  body { font-family: Helvetica, Arial, sans-serif; color:var(--text); line-height:1.38; font-size:11.2pt; }
+  h1,h2,h3 { margin:0; }
+  .center { text-align:center; }
+  .name { color:var(--navy); font-weight:700; font-size:20pt; letter-spacing:0.2px; }
+  .title { margin-top:4px; font-size:12.5pt; }
+  .contact { margin-top:8px; font-size:10.8pt; color:var(--text); }
+  .contact a { color:#0645AD; text-decoration:none; }
+  .rule { height:1px; background:linear-gradient(to right, transparent, var(--rule), transparent); margin:10px 0 14px; }
+  .section { color:var(--navy); font-weight:700; font-size:13pt; margin:14px 0 8px; }
+  .role { font-weight:700; font-size:11.6pt; margin:10px 0 6px; color:var(--text); }
+  ul { margin:0 0 6px 18px; padding:0; }
+  li { margin:0 0 4px 0; }
+  b { font-weight:700; }
+  .muted { color:var(--muted); }
+  .page-break { page-break-before: always; margin-top:0; }
+  /* Slightly tighter bullets only in Virtusa to keep last line on page 1 */
+  .virtusa li { margin-bottom:2px; }
+  /* Keep headings near content */
+  h2.section { break-after: avoid; }
+</style>
+</head>
+<body>
+
+  <header class="center">
+    <h1 class="name">Harshavardhan Raja</h1>
+    <div class="title">Cloud &amp; Data Engineer – 6+ Years of Experience</div>
+    <div class="contact">📞 +91-8008823497 &nbsp;|&nbsp; ✉ harshaiitg97@gmail.com</div>
+    <div class="contact">🔗 <a href="https://linkedin.com/in/harshavardhan-raja">linkedin.com/in/harshavardhan-raja</a> &nbsp;|&nbsp; 💻 <a href="https://github.com/HarshavardhanRaja">github.com/HarshavardhanRaja</a></div>
+  </header>
+
+  <div class="rule"></div>
+
+  <h2 class="section">Professional Summary</h2>
+  <p>
+    Cloud &amp; Data Engineer with over 6 years of experience designing, building, and maintaining scalable, secure,
+    and automated data systems on <b>GCP</b> and <b>AWS</b>. Skilled in developing end-to-end ETL pipelines using
+    <b>Apache Airflow</b>, <b>BigQuery</b>, <b>Dataflow</b>, and <b>Vertex AI</b> to deliver reliable, high-performing
+    analytics solutions. Recognized for improving data reliability, mentoring engineers, and driving collaboration across
+    Data Science, DevOps, and Analytics teams to solve business problems with data.
+  </p>
+
+  <div class="rule"></div>
+
+  <h2 class="section">Professional Experience</h2>
+
+  <div class="role">Senior Data Engineer – Sequoia | Sep 2024 – Present</div>
+  <ul>
+    <li>Designed and delivered a secure data-ingestion framework to transfer encrypted files from client S3 to internal S3, automating decryption and structured storage in <b>MongoDB</b> and JSON format.</li>
+    <li>Delivered the feature end-to-end within six weeks, reducing manual data handling by 60% while maintaining strict data-security compliance.</li>
+    <li>Streamlined logging and observability for <b>Airflow</b>-based data jobs, reducing issue-resolution time by 25%.</li>
+    <li>Participated in KT sessions and documentation initiatives to accelerate onboarding for new engineers.</li>
+  </ul>
+
+  <div class="role">Senior Associate (Cloud Data Engineer) – BlackBuck Insights | Dec 2021 – May 2024</div>
+  <ul>
+    <li>Developed and maintained 50+ ETL pipelines using <b>Apache Airflow</b> and <b>Cloud Composer</b> for data ingestion from <b>Snowflake</b> and <b>GCS</b> into <b>BigQuery</b>, reducing runtime by 30%.</li>
+    <li>Integrated <b>Vertex AI</b> models into Airflow DAGs for demand forecasting, improving accuracy by 20%.</li>
+    <li>Automated <b>Docker</b>-based ML model deployments on <b>Cloud Run</b>, cutting release cycles by 40%.</li>
+    <li>Maintained 10+ <b>FastAPI</b> microservices serving ML insights to dashboards, reducing latency by 35%.</li>
+    <li>Implemented <b>Datadog</b> monitoring for microservices and pipelines, ensuring 99.9% SLA compliance.</li>
+    <li>Created reusable DAG templates and onboarding guides, reducing setup time for new tenants by 40%.</li>
+  </ul>
+
+  <div class="role">Associate Consultant – Virtusa | Jul 2019 – Dec 2021</div>
+  <ul class="virtusa">
+    <li>Supported 1,000+ <b>GCP</b> data pipelines in production, reducing escalations from 60% to 20% through proactive monitoring and documentation improvements.</li>
+    <li>Led a 100 TB migration from on-prem to <b>BigQuery</b> using <b>Apache Beam</b> and <b>Dataflow</b>, ensuring zero data loss and successful validation.</li>
+    <li>Built an automated <b>BigQuery</b> disaster-recovery tool for DDL and data backups, reducing recovery time from hours to minutes.</li>
+    <li>Developed IoT pipelines that processed real-time sensor data for predictive maintenance within Virtusa’s Cognisense platform.</li>
+    <li>Authored <b>Terraform</b> scripts automating <b>GCS</b>, <b>Compute Engine</b>, and <b>BigQuery</b> provisioning in line with CIS compliance.</li>
+    <li>Designed <b>Looker Studio</b> dashboards showcasing KPIs for data-platform performance and transparency.</li>
+    <li>Collaborated with <b>Virtusa X-Labs</b> to develop CNN models for pneumonia detection, applying ML in <b>healthcare analytics</b>.</li>
+  </ul>
+
+  <!-- Clean page break so Technical Skills starts Page 2 -->
+  <div class="page-break"></div>
+
+  <h2 class="section">Technical Skills</h2>
+  <p><b>Programming:</b> Python, SQL<br>
+     <b>Cloud Platforms:</b> GCP (BigQuery, Dataflow, Pub/Sub, Composer, Cloud Run, Looker Studio), AWS (S3, MWAA, Secrets Manager, CloudWatch), Azure (basic)<br>
+     <b>Data Warehouses / Databases:</b> BigQuery, Snowflake, MongoDB, MySQL, MS SQL Server<br>
+     <b>ETL &amp; Big Data:</b> Apache Airflow, Beam, Spark, Fivetran, Airbyte<br>
+     <b>Frameworks &amp; Libraries:</b> FastAPI, Pandas, NumPy<br>
+     <b>Infrastructure &amp; Tools:</b> Terraform, Git, Docker, Cursor (AI-powered IDE for development and refactoring), Kubeflow, Datadog<br>
+     <b>MLOps &amp; Automation:</b> Vertex AI, CI/CD (GitHub Actions), Container Orchestration
+  </p>
+
+  <div class="rule"></div>
+
+  <h2 class="section">Education</h2>
+  <p>
+    B.Tech – Chemical Science &amp; Technology, Indian Institute of Technology Guwahati (2019)<br>
+    Senior Secondary – Board of Intermediate Education A.P (2015)<br>
+    Secondary – Board of Secondary Education A.P (2013)
+  </p>
+
+  <div class="rule"></div>
+
+  <h2 class="section">Certifications</h2>
+  <ul>
+    <li>GCP Professional Data Engineer (ID: 3517bc701f4d45cea592e572e62f7dfd)</li>
+    <li>GCP Professional Cloud Architect (ID: iOGVW8)</li>
+  </ul>
+
+  <div class="rule"></div>
+
+  <h2 class="section">Achievements</h2>
+  <ul style="margin-bottom:0;">
+    <li>Sequoia BackPack Award (2025) – for impactful contributions to data-engineering initiatives.</li>
+    <li>BBI Core Value Award (Q3 2023) – recognized for collaboration and reliability.</li>
+    <li>Virtusa Top Talent H2 FY21 &amp; Top Performer Bonus (2020–21).</li>
+    <li>Virtusa V-Energiser Award (May 2021) – for innovation in automation and data processes.</li>
+  </ul>
+
+</body>
+</html>
